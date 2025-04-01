@@ -47,7 +47,8 @@ if __name__ == "__main__":
         print(f"Waiting for {INTERVAL_MINUTES} minutes...")
         print(f"Total Requests made: {TOTAL_REQUEST}")
         try:
-            time.sleep(INTERVAL_SECONDS)
+            pass
+            # time.sleep(INTERVAL_SECONDS)
         except KeyboardInterrupt:
             print("\nScript interrupted by user. Exiting.")
             break
